@@ -2,3 +2,9 @@ html {
     background-color: #EC1500;
 }
 
+h1, h2, h3, p, a, strong {
+    float:left;font-family: 'Finger Paint', cursive;
+}
+
+th {text-align: center;}
+

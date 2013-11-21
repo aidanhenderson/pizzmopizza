@@ -10,28 +10,31 @@
         <script src="js/jquery-ui-1.10.3.custom/js/jquery-1.9.1.js"></script>
         <script src="js/jquery-ui-1.10.3.custom/js/jquery-ui-1.10.3.custom.js"></script></script>
         <link rel="stylesheet" type="text/css" href="js/jquery-ui-1.10.3.custom/css/humanity/jquery-ui-1.10.3.custom.min.css"/> 
-        
+        <link href='http://fonts.googleapis.com/css?family=Finger+Paint' rel='stylesheet' type='text/css'>
+    
         <script type="text/javascript">
-            $("#tabs").tabs();
+            $(function(){$("#tabs").tabs();});
         </script>
     </head>
     <body>
-        <div style="width:750px; margin:0px auto;">
+        <div style="width:900px; margin:0px auto;">
             <div style=" width:100%; position:relative; background-color:#fff; float:left;">
                 <img src="images/pizzmo_v1.png" style="height:80%; width:30%; background-color:#fff; border:none; float:left; position:relative;"/>
-                <h1 style="float:left;">Pizzmo Pizza</h1>
+                <h1>Pizzmo Pizza</h1>
+                <h2>by Landon Massy and Aidan Henderson</h2>
             </div>
-            <div id="tabs">
+            
+            <div id="tabs" style="float:left; width:100%;">
                 <ul>
                     <li><a href="#tabs-1">Home</a></li>
                     <li><a href="#tabs-2">Doodle</a></li>
                     <li><a href="#tabs-3">Games</a></li>
                 </ul>
                 <!--tab one-->
-                <div id="tabs-1"style="width:100%; float:left; background-color:#fff">
-                    <table style="margin:0px auto; float:left; position:relative; border-collapse:collapse;">
+                <div id="tabs-1"style="float:left; background-color:#fff; position:relative;">
+                    <table style="float:left; position:relative; border-collapse:collapse;">
                         <tr style="text-align:center; color:#EC1500;"><th colspan=2><h3>Who's Side Are You On???</h3></th></tr>
-                        <tr><th style="border:1px solid black;">Bam</th><th style="border:1px solid black;">Pizzmo Pizza</th></tr>
+                        <tr><th style="border:1px solid black;"><strong>Bam</strong></th><th style="border:1px solid black;"><strong>Pizzmo Pizza</strong></th></tr>
                         <tr>
                             <td style="border:1px solid black;">
                                 <p>
@@ -49,11 +52,9 @@
                     <!-- end tab one-->
                 </div>
                 <div id="tabs-2"></div>
-                <div id="tabs-3"></div>
-            </div>
-            
-            <div style="float:left; clear:both; height:200px; width:100%; background-color:#fff;">
-                Footer Content
+                <div id="tabs-3">
+                <embed src="http://games.mochiads.com/c/g/quick-math_v314514/quickmath.swf" menu="false" quality="high" width="600" height="400" type="application/x-shockwave-flash"           pluginspage="http://www.macromedia.com/go/getflashplayer" />
+                </div>
             </div>
         </div>
 
